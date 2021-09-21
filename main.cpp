@@ -11,7 +11,7 @@
 
 String apiKey = "thingspeak api key";     // your api key 
 const char *ssid =  "wifi name";          // your wifi name
-const char *pass =  "wifi password";"     // yout wifi password
+const char *pass =  "wifi password";"     // your wifi password
 const char* server = "api.thingspeak.com";// no need to change
 
 float t, h;
