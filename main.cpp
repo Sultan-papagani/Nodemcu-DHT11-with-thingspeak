@@ -25,7 +25,7 @@ void setup() {
    WiFi.begin(ssid, pass);
    while (WiFi.status() != WL_CONNECTED) 
    {
-      delay(100);
+      delay(100); // do not remove this delay (it will cause boot loop) (weird right ?)
    }
    h = dht.readHumidity();
    t = dht.readTemperature();
