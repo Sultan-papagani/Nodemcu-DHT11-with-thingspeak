@@ -21,7 +21,7 @@ WiFiClient client;
 
 void setup() {
    dht.begin();
-   WiFi.hostname("Nodemcu Telemetri");
+   WiFi.hostname("This name will show up when nodemcu connected to wifi"); // give it a simple name
    WiFi.begin(ssid, pass);
    while (WiFi.status() != WL_CONNECTED) 
    {
