@@ -6,6 +6,8 @@
 
 // for deep sleep to work; 
 // connect D0 with RST pin (with a jumper cable or any cable)
+// also you can check this website 
+// https://randomnerdtutorials.com/esp8266-deep-sleep-with-arduino-ide/
 
 // [thingspeak] on Channel Settings you need two Fields first for temp. second for humidty
 
